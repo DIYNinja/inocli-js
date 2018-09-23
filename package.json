@@ -1,0 +1,32 @@
+{
+  "name": "inocli",
+  "version": "0.0.1",
+  "description": "NodeJS Arduino command line interface wrapper ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "docs": "jsdoc lib -r -c jsdoc.conf.json -d docs",
+    "docsMD": "jsdoc2md lib/*.js > README.md --template README.hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIYNinja/inocli-js.git"
+  },
+  "keywords": [
+    "arduino",
+    "nodejs",
+    "javascript",
+    "cli",
+    "arduino-cli"
+  ],
+  "author": "Alexandre AUSSOURD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DIYNinja/inocli-js/issues"
+  },
+  "homepage": "https://github.com/DIYNinja/inocli-js#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "source": {
+      "include": [
+        "./lib"
+      ]
+    },
+    "opts": {
+      "debug": true,
+      "destination": "docs",
+      "readme": "./README.md"
+    },
+    "plugins": ["plugins/markdown"],
+    "markdown": {
+      "idIdHeadings": true
+    }
+}
